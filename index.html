@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cálculo IMC</h1>
+    <div class="inicio">
+       .......
+    </div>
+    <div>
+        <div class="formdata">
+            <form name="imc">
+                <label for="altura">Altura (ex:1.70cm) </label>
+                <input type="number" id="altura" value="" placeholder="cm"/>
+                <label for="peso">Peso (ex:69,2kg)</label>
+                <input type="number" id="peso" value="" placeholder="kg"/>
+                <input type="button" value="Calcular" id="calcular" name="calcular"
+                onclick="pessoa.imc()"
+                />
+              <input type="button" value="Limpar" id="limpar" name="limpar"
+                onclick="pessoa.delete()"
+                />
+            </form>
+        </div>
+
+    </div>
+    <div id="resultado">
+        SEU IMC: <span id="resultadoimc"></span>
+    </div>
+</body>
+<script src="script.js" type="text/javaScript"></script>
+</html>

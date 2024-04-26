@@ -1,0 +1,15 @@
+*{
+ background-color: #f5f5f7;
+ color:rgb(0, 0, 0);
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+input
+{
+    width: 200px;
+}
